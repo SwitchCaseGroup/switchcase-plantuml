@@ -23,7 +23,7 @@ These items can be referenced out of the `dist` directory as follows:
 ```
 !define AWSPuml https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/master/dist/aws-icons/
 ' Include main AWSCommon and then sprite files
-!includeurl AWSPuml/AWSCommon.puml
-' !includeurl AWSPuml/BusinessApplications/all.puml
-' !includeurl AWSPuml/Storage/SimpleStorageServiceS3.puml
+!include AWSPuml/AWSCommon.puml
+' !include AWSPuml/BusinessApplications/all.puml
+' !include AWSPuml/Storage/SimpleStorageServiceS3.puml
 ```
