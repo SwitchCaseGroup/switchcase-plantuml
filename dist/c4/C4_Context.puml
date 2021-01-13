@@ -1,4 +1,5 @@
-!include https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/master/dist/c4/C4.puml
+'!include https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/master/dist/c4/C4.puml
+include https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/evschu/ch63166/document-plantuml-c4/dist/c4/C4.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4.puml
 
