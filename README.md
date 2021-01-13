@@ -21,13 +21,13 @@ These items can be referenced out of the `dist` directory as follows:
 
 ## Theme
 
-```
+```puml
 !include https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/master/dist/theme/all.puml
 ```
 
 ## AWS Icons
 
-```
+```puml
 !define AWSPuml https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/master/dist/aws-icons/
 ' Include main AWSCommon and then sprite files
 !includeurl AWSPuml/AWSCommon.puml
@@ -39,7 +39,7 @@ These items can be referenced out of the `dist` directory as follows:
 
 Pulled from https://github.com/plantuml-stdlib/C4-PlantUML/releases/tag/v2.0.0
 
-```
+```puml
 ' Include the appropriate file below. These files include a reference to https://raw.githubusercontent.com/SwitchCaseGroup/switchcase-plantuml/master/dist/c4/C4.puml
 
 ' Context
