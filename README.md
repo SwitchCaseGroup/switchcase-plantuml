@@ -15,9 +15,11 @@ This is based on the following excellent projects
 
 These items can be referenced out of the `dist` directory as follows:
 
-- [Theme](#theme)
-- [AWS Icons](#aws-icons)
-- [C4](#c4-plantuml)
+- [switchcase-plantuml](#switchcase-plantuml)
+  - [Contents](#contents)
+  - [Theme](#theme)
+  - [AWS Icons](#aws-icons)
+  - [C4-PlantUML](#c4-plantuml)
 
 ## Theme
 
@@ -33,6 +35,16 @@ These items can be referenced out of the `dist` directory as follows:
 !include AWSPuml/AWSCommon.puml
 ' !include AWSPuml/BusinessApplications/all.puml
 ' !include AWSPuml/Storage/SimpleStorageServiceS3.puml
+```
+
+Last synced with tag `v14.0` of `awslabs/aws-icons-for-plantuml`
+```
+# to sync
+rm -rf .upstream/aws-icons/
+mkdir -p .upstream
+git -c advice.detachedHead=false clone -b v14.0 --depth 1 git@github.com:awslabs/aws-icons-for-plantuml.git .upstream/aws-icons
+rsync -avP .upstream/aws-icons/dist/ ./dist/aws-icons/
+# now review the changes, commit and push
 ```
 
 ## C4-PlantUML
